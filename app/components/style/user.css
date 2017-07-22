@@ -1,0 +1,141 @@
+ @charset "utf-8";
+/* 初始化CSS */
+html {font:14px "宋体","SimSun","Arial Narrow";color:#272727;}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, img {margin:0;padding:0;}
+img {display:block;border:none;}
+em ,i {font-style:normal;font-weight:normal;}
+ul, ol, li {list-style:none;}
+h1, h2, h3, h4, h5, h6 {font-size:inherit;font-weight:normal;}
+input, select, textarea, button {outline:none;margin:0;padding:0;vertical-align:middle;font-family:"宋体";font-size:12px;color:#272727;}
+
+a {outline:none;text-decoration:none;color:#272727;}
+a:hover {text-decoration:none;color:#272727;}
+
+.clear {clear:both;}
+.clearfix:after {content:'';display:block;height:0;visibility:hidden;clear:both;}
+/* 初始化CSS END */
+
+
+body {overflow-x:hidden;}
+.fl{float: left;}
+.fr{float: right;}
+
+
+body{
+	background-color: #f4f4f4;
+}
+ 
+.customer{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	width: 100%;
+	padding: 2% 5% ;
+	background-color: #fff;
+	margin-bottom: 10px;
+
+}
+.customer p{
+	line-height: 30px;
+}
+.customer p b{
+	float: right;
+}
+p.address{
+	color:#d0d0d0 ;
+}
+.edit{
+	border-top: 1px solid #ebebeb;
+	line-height: 40px;
+}
+.addBtn{
+	position: fixed;
+	width: 100%;
+	line-height: 50px;
+	font-size: 20px;
+	background-color: red;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #fff;
+	bottom: 0;
+}
+
+ /*新建收货地址*/  
+ 
+.newUser{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	 
+}
+h2{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+h2 b{
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+.list{
+	margin: 5%;
+	line-height: 30px;
+	border-bottom: 1px solid #D0D0D0;
+}
+.list i{
+	color: #4c4c4c;
+}
+.list input{
+	margin-left: 5%;
+	width: 200px;
+	border: 0;
+}
+button{
+	width: 80%;
+	margin-left: 10%;
+	line-height: 30px;
+	color:#fff;
+	border: 0;
+	background-color: #48cfae;
+}
+button.del{
+	 
+	background-color: #CCCCCC;
+}
+
+ /* 确认删除 */
+.warning{
+	position: absolute;
+	width: 60%;
+	padding: 5%;
+	font-family: "微软雅黑";
+	background-color: #fff;
+	color: #fff;
+	border-radius: 5px;
+	left: 50%;
+	top: 40%;				 
+	margin-left:-35% ;
+ 
+}
+.warning p{
+	color: #162D2F;
+	text-align: center;
+	line-height: 50px;
+}
+
+.warning .unable{
+	width: 40%;
+	line-height: 30px;
+	background-color: #CCCCCC;
+	text-align: center;
+	border-radius: 5px;
+}
+.warning .enable{
+	width: 40%;
+	line-height: 30px;
+	background-color: #3cb99b;
+	text-align: center;
+	border-radius: 5px;
+}
